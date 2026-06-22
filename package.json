@@ -1,0 +1,33 @@
+{
+  "name": "eslint-presets",
+  "version": "1.0.0",
+  "author": {
+    "name": "Denis Shelest",
+    "email": "axules@mail.ru"
+  },
+  "contributors": [
+    {
+      "name": "Denis Shelest",
+      "email": "axules@mail.ru"
+    }
+  ],
+  "main": "./src/index.js",
+  "deprecated": false,
+  "description": "Eslint 10 presets",
+  "keywords": [
+    "eslint",
+    "preset",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axules/eslint-presets"
+  },
+  "peerDependencies": {
+    "eslint": "10.x - x"
+  },
+  "files": [
+    "src"
+  ]
+}
