@@ -25,7 +25,34 @@
     "url": "https://github.com/axules/eslint-presets"
   },
   "peerDependencies": {
-    "eslint": "10.x - x"
+    "eslint": "10.x - x",
+    "@eslint/js": "10.x - x",
+    "@stylistic/eslint-plugin": "6.x - x",
+    "eslint-plugin-es": "4.x - ",
+    "eslint-plugin-import": "2.x - x",
+    "eslint-plugin-import-newlines": "2.x - x",
+    "eslint-plugin-jsx-a11y": "6.x - x",
+    "eslint-plugin-react": "7.x - x",
+    "eslint-plugin-react-hooks": "7.x - x",
+    "eslint-plugin-simple-import-sort": "13.x - x"
+  },
+  "devDependencies": {
+    "eslint": "10.5.0"
+  },
+  "dependencies": {
+    "@eslint/compat": "2.1.0",
+    "@eslint/js": "10.0.1",
+    "@stylistic/eslint-plugin": "6.0.0-beta.5",
+    "eslint-plugin-es": "4.1.0",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-import-newlines": "2.0.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-simple-import-sort": "13.0.0"
+  },
+  "overrides": {
+    "eslint": "10.5.0"
   },
   "files": [
     "src"
