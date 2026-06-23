@@ -46,6 +46,7 @@ const stylisticRules = [
       '@stylistic': pluginStylistic,
     },
     rules: {
+      '@stylistic/linebreak-style': ['error', 'unix'],
       '@stylistic/space-infix-ops': 'error',
       '@stylistic/arrow-spacing': 'error',
       '@stylistic/keyword-spacing': 'warn',
@@ -66,8 +67,6 @@ const stylisticRules = [
       '@stylistic/operator-linebreak': ['error', 'before'],
       '@stylistic/indent': ['error', 2, { SwitchCase: 1 }],
       '@stylistic/quotes': ['error', 'single'],
-      '@stylistic/jsx-quotes': ['error', 'prefer-double'],
-      // '@stylistic/jsx-closing-tag-location': 'error',
       '@stylistic/quote-props': ['error', 'as-needed'],
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/no-extra-semi': 'error',
@@ -80,6 +79,9 @@ const stylisticRules = [
       '@stylistic/newline-per-chained-call': 'error',
       '@stylistic/no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1, maxBOF: 0 }],
       '@stylistic/brace-style': 0,
+
+      '@stylistic/jsx-quotes': ['error', 'prefer-double'],
+      // '@stylistic/jsx-closing-tag-location': 'error',
     },
   },
 ];
