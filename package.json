@@ -27,7 +27,7 @@
   "peerDependencies": {
     "eslint": "10.x - x",
     "@eslint/js": "10.x - x",
-    "@stylistic/eslint-plugin": "6.x - x",
+    "@stylistic/eslint-plugin": "x",
     "eslint-plugin-es": "4.x - ",
     "eslint-plugin-import": "2.x - x",
     "eslint-plugin-import-newlines": "2.x - x",
