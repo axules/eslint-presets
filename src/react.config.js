@@ -91,4 +91,22 @@ export default [
       ],
     },
   },
+
+  {
+    rules: {
+      // forbid destruction of props in functional component with default objects like
+      // const { arr = [], obj = {} } = props;
+      'no-restricted-syntax': [
+        'error',
+        ...[
+          ['OBJECT', 'ObjectExpression'],
+          ['NEW OBJECT', 'NewExpression'],
+          ['ARRAY', 'ArrayExpression'],
+        ].map(([t, v]) => ({
+          selector: `VariableDeclarator[id.type="ObjectPattern"][init.name="props"] Property[value.right.type="${v}"]`,
+          message: `Destructuring assignment with ${t} default value is not allowed for React component props.`,
+        })),
+      ],
+    },
+  },
 ];

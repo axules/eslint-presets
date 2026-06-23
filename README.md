@@ -24,3 +24,9 @@ export default defineConfig([
   reactConfig,
 ]);
 ```
+
+## What is available
+
+`jsConfig` - common js rules
+
+`reactConfig` - all what is needed for react

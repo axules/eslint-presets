@@ -22,17 +22,6 @@ const jsRules = [
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'callback-return': 'error',
       'no-useless-backreference': 'warn',
-      'no-restricted-syntax': [
-        'error',
-        ...[
-          ['OBJECT', 'ObjectExpression'],
-          ['NEW OBJECT', 'NewExpression'],
-          ['ARRAY', 'ArrayExpression'],
-        ].map(([t, v]) => ({
-          selector: `VariableDeclarator[id.type="ObjectPattern"][init.name="props"] Property[value.right.type="${v}"]`,
-          message: `Destructuring assignment with ${t} default value is not allowed for React component props.`,
-        })),
-      ],
       eqeqeq: 'error',
       'no-use-before-define': 'error',
     },
