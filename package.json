@@ -12,6 +12,15 @@
     }
   ],
   "main": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./runner": "./dist/runner.js",
+    "./*": "./src/*.js"
+  },
   "deprecated": false,
   "description": "Eslint 10 presets",
   "keywords": [
@@ -54,8 +63,5 @@
   },
   "overrides": {
     "eslint": "10.5.0"
-  },
-  "files": [
-    "src"
-  ]
+  }
 }
