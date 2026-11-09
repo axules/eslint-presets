@@ -26,6 +26,6 @@ const customConfig = {
 };
 
 export default defineConfig([
-  jsConfig,
   customConfig,
+  jsConfig,
 ]);
