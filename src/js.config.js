@@ -65,7 +65,7 @@ const stylisticRules = [
       '@stylistic/computed-property-spacing': 'error',
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
       '@stylistic/function-paren-newline': ['error', 'multiline-arguments'],
-      '@stylistic/newline-per-chained-call': 'error',
+      // '@stylistic/newline-per-chained-call': 'error',
       '@stylistic/no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1, maxBOF: 0 }],
       '@stylistic/brace-style': 0,
 
